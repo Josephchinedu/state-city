@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>City App</title>
+
+
+	<!-- Bootstrap link -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+
+
+	<!-- Custom Css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+
+			<h4 style="font-size: 18px; line-height: 10px; letter-spacing: 2px; font-family: monospace;">Select your location</h4>
+				<br />
+
+			<form name="myform" id="myForm">
+			  <div class="row">
+			  	<div class="col-md-3">
+			  		<select id="countySel" size="1" class="form-control">
+				        <option value="" selected="selected" >State</option>
+				    </select>
+			  	</div>
+
+
+			  	<div class="col-md-3">
+			  		<select id="stateSel" size="1" class="form-control">
+				        <option value="" selected="selected">Local govt</option>
+				    </select>
+			  	</div>
+
+
+			  	<div class="col-md-3">
+			  		<select id="citySel" size="1"class="form-control">
+				        <option value="" selected="selected">City</option>
+				    </select>
+			  	</div>
+
+
+			  	<div class="col-md-3">
+			  		 <select id="zipSel" size="1" class="form-control">
+				        <option value="" selected="selected">Zip code</option>
+				    </select>
+			  	</div>
+			  </div>
+			</form>
+		</div>
+			   
+
+		<center><p style="font-size: 18px; line-height: 10px; letter-spacing: 3px; font-family: monospace;">Developer by Joseph Chinedu &copy; 2019</p></center>
+	</div>
+
+</body>
+<script src="app.js"></script>
+</html>
